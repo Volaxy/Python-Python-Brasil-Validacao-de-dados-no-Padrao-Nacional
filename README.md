@@ -27,3 +27,17 @@ URL do curso -> [Python 3: Trabalhando com I/O](https://cursos.alura.com.br/cour
 
 ### 03 - Utilizando um Pacote
 * Importar o pacote do `validate-docbr` dentro da classe `Cpf`.
+
+## 02 - Validando CNPJ e Construindo uma Factory &#x1F516;
+* Como utilizar mais uma classe da `validate_docbr`.
+* O que é o padrão de projeto `Factory`.
+* Como e quando implementar uma `Factory` em nosso código.
+
+### 01 - Validando CNPJ
+* Criando a classe `CNPJ`.
+
+### 02 - Máscara para CNPJ
+* Retornar uma máscara formatada de `CNPJ`.
+
+### 03 - Refatorando o Código
+* Criar uma **Factory**.
