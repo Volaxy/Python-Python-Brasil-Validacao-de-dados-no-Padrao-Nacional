@@ -41,3 +41,25 @@ URL do curso -> [Python 3: Trabalhando com I/O](https://cursos.alura.com.br/cour
 
 ### 03 - Refatorando o Código
 * Criar uma **Factory**.
+
+## 03 - Validando Telefones com Expressões Regulares &#x1F516;
+* O que são expressões regulares.
+* Como construir padrões e encontra-los dentro de textos.
+* Como validar com expressões regulares.
+* Como criar máscaras com expressões regulares.
+
+### 01 - Resumo Regex
+* Usar `import re` para importar a biblioteca de expressões regulares.
+    * Os colchetes `[]` são caracteres especiais que definem um *range* ou um grupo de caracteres, como `[0-9]`, `[a-z]` ou `[abc]` por exemplo.
+    * Já o `*` pega uma ou mais ocorrências do padrão definido anteriormente.
+    * As chaves `{}` nos permitem definir uma quantidade específica de vezes que queremos que o padrão se repita ou um intervalo de possibilidades, como `[abc]{5}` por exemplo.
+    * O `\w` pode ser qualquer número de zero a nove ou letra de "A" a "Z".
+    * A barra `|` representa uma coisa ou outra como em `@|$` por exemplo.
+    * Os parênteses `()` capturam um grupo.
+* A função `re.search(EXPRESSION, STRING)` procura uma expressão regular dentro de uma *string*.
+
+### 02 - Definindo Padrão para Telefones
+* A função `re.findall(PATTERN, TEXT)` encontra todas as correspondências em um texto.
+
+### 03 - Criando Máscara para o Número de Telefone
+* Criar máscara para os números de telefone.
