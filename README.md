@@ -12,6 +12,8 @@ URL do curso -> [Python 3: Trabalhando com I/O](https://cursos.alura.com.br/cour
 
 ## Links Úteis &#x1F517;
 * [PyPI](https://pypi.org/) - Site para procura de pacotes e bibliotecas **Pyhton**.
+* [ViaCEP](https://viacep.com.br/) - API para requisições de Endereços através do **CEP**.
+* [HTTP for Humans](https://docs.python-requests.org/en/master/) - Biblioteca para uma **API** que já vem junto com o **Python**.
 
 ## 01 - Validando CPF e Acessando o PYPI &#x1F516;
 * Validar um documento pela quantidade de caracteres.
@@ -80,3 +82,20 @@ URL do curso -> [Python 3: Trabalhando com I/O](https://cursos.alura.com.br/cour
 
 ### 03 - Diferença entre Datas e Timedelta
 * Somar ou substrair datas e horas.
+
+## 05 - Trabalhando com CEP e Acessando uma API &#x1F516;
+* O que são requisições HTTP.
+* Para que serve e como acessar uma API.
+* Como utilizar a biblioteca `requests` do Python.
+* Acessar a API do [ViaCEP](https://viacep.com.br/) e retornar informações do endereço a partir do CEP.
+
+### 01 - Introdução APIs e Validação de CEP
+* Para acessar uma **API**, é nescessário enviar uma requisição *http*.
+* O retorno de uma **API** é uma resposta *serializada*, no qual é um ***json*** ou ***xml*** e realiza a integração entre sistemas.
+
+### 02 - Acessando APIs com Python
+* Como usar uma **API** para requisições no **Python**.
+* Usar `dir()` para mostrar todos os atributos de um *objeto*.
+
+### 03 - Respostas API via CEP
+* Utilizando o método `.json` para retornar um dicionário do conteúdo da requisição.
