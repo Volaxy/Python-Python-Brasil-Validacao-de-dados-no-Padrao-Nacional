@@ -63,3 +63,20 @@ URL do curso -> [Python 3: Trabalhando com I/O](https://cursos.alura.com.br/cour
 
 ### 03 - Criando Máscara para o Número de Telefone
 * Criar máscara para os números de telefone.
+
+## 04 - Manipulando e Formatando Datas &#x1F516;
+* Como trabalhar com datas e horas no Python.
+* Métodos da classe `datetime`.
+* Para que serve o `timedelta()` e como utilizá-lo.
+
+### 01 - Datas no Python
+* Usar a biblioteca built-in **datetime**.
+* A função `datetime.today()` retorna a data e horário atual no momento que a função é executada.
+* A função `.month` retorna o inteiro do mês.
+* A função `.weekday` retorna o inteiro do dia da semana.
+
+### 02 - Formatando Datas
+* A função `.strftime()` formata uma data de acordo com os caracteres passados para a função.
+
+### 03 - Diferença entre Datas e Timedelta
+* Somar ou substrair datas e horas.
